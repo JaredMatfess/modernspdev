@@ -1,0 +1,66 @@
+.eventItem{
+	clear:both;
+	border-top: 1px solid #b8d4ea;
+	padding-bottom:15px;
+	padding-top:15px;
+    font-family: Arial, sans-serif;
+    color:#484848;    
+    font-size:12px;
+}
+.eventItem:first-child{
+	border-top: 0px;	
+	padding-top:5px;
+
+}
+.eventItem .eventDateIcon{
+	float:left;
+	width:40px;
+	margin-top:5px;
+}
+.eventItem .eventDetails{
+	margin-left:40px;	
+}
+
+.eventDateIcon .monthRow{
+	background-color:#8495a3;
+	color:#dae8f4;
+    font-family: Arial, sans-serif;
+	font-weight:bold;
+    font-size: 9px;
+    text-transform:uppercase;
+    width:25px;
+    text-align:center;
+}
+.eventDateIcon .dateRow{
+    border-left: 2px solid #8495a3;
+	border-right: 2px solid #8495a3;
+	border-bottom: 2px solid #8495a3;
+    font-family: Arial, sans-serif;
+		font-weight:bold;
+    	font-size: 12px;
+		text-align:center;
+		color:#8495a3;
+		border-top:0px;
+		width:21px;
+		height:16px;
+}
+.eventItem .eventTitle{
+	text-transform:uppercase;
+	color:#3a5a78;
+	font-weight:bold;
+}
+.eventItem .eventDate{
+	font-weight:bold;
+	padding-top:5px;	
+}
+.eventItem .eventTime{
+	font-weight:bold;
+}
+
+.eventItem .eventLocation{
+	font-weight:bold;	
+	font-style:italic;		
+}
+.eventItem .eventAddCalendarLink{
+	padding-top:3px;		
+}

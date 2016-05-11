@@ -1,0 +1,18 @@
+{
+  "name": "livedemo",
+  "description": "live demo",
+  "main": "index.html",
+  "authors": [
+    "Jared D. Matfess"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

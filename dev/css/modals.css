@@ -1,0 +1,36 @@
+/* hide ribbon in modal dialog window */
+.ms-dialog #s4-ribbonrow {
+display: none;
+}
+.ms-dlgTitle {
+display: none !important;
+}
+
+input[type=button], input[type=reset], input[type=submit], button{
+background-color:#15ACEB;
+font-size: .9rem;
+color:#FFFFFF;
+font-family:Arial, Helvetica, sans-serif;
+box-shadow: 1px 1px 0px #BEE2F9;
+padding: 3px 10px;
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+border-radius: 6px;
+border: 2px solid #01AAEE;
+
+}
+
+input[type=button]:hover, input[type=reset]:hover, input[type=submit]:hover, button:hover{
+color:yellow;			
+background-color:#15ACEB;	
+}
+
+
+input[type=button][disabled], input[type=reset][disabled], input[type=submit][disabled], button[disabled][disabled]{
+background-color:#BBBBBB;
+color:#FFFFFF;
+border: 2px solid #BBBBBB;
+}
+
+
+#s4-ribbonrow, #suiteBar { display : none; }
