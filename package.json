@@ -11,14 +11,16 @@
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.0",
     "gulp-csso": "^2.0.0",
     "gulp-uglify": "^1.5.3"
   },
   "dependencies": {
-    "gulp-uglify": "^1.5.3",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
-    "gulp-csso": "^2.0.0"
+    "gulp-csso": "^2.0.0",
+    "gulp-typescript": "^2.13.6",
+    "gulp-uglify": "^1.5.3"
   },
   "repository": {
     "type": "git",
